@@ -1,0 +1,139 @@
+2026-04-17T06:56:40+00:00 NOTICE Unable to detect valid feed configuration: No catalog ID
+2026-04-17T06:56:40+00:00 NOTICE There was an error trying to get product set data in a catalog: Невозможно создать экземпляр API, так как отсутствует токен доступа.
+2026-04-17T06:56:40+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Невозможно создать экземпляр API, так как отсутствует токен доступа.; exception_trace : #0 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(570): WP_Hook->do_action()
+#6 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(86): do_action_ref_array()
+#7 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action()
+#13 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action()
+#18 C:\OSPanel\domains\shop\wordpress\wp-admin\admin-ajax.php(207): do_action()
+#19 {main}
+2026-04-17T06:56:40+00:00 NOTICE There was an error trying to get product set data in a catalog: Невозможно создать экземпляр API, так как отсутствует токен доступа.
+2026-04-17T06:56:40+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Невозможно создать экземпляр API, так как отсутствует токен доступа.; exception_trace : #0 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(570): WP_Hook->do_action()
+#6 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(86): do_action_ref_array()
+#7 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action()
+#13 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action()
+#18 C:\OSPanel\domains\shop\wordpress\wp-admin\admin-ajax.php(207): do_action()
+#19 {main}
+2026-04-17T06:56:40+00:00 NOTICE There was an error trying to get product set data in a catalog: Невозможно создать экземпляр API, так как отсутствует токен доступа.
+2026-04-17T06:56:40+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Невозможно создать экземпляр API, так как отсутствует токен доступа.; exception_trace : #0 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(570): WP_Hook->do_action()
+#6 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(86): do_action_ref_array()
+#7 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action()
+#13 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action()
+#18 C:\OSPanel\domains\shop\wordpress\wp-admin\admin-ajax.php(207): do_action()
+#19 {main}
+2026-04-17T06:56:40+00:00 NOTICE There was an error trying to get product set data in a catalog: Невозможно создать экземпляр API, так как отсутствует токен доступа.
+2026-04-17T06:56:40+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Невозможно создать экземпляр API, так как отсутствует токен доступа.; exception_trace : #0 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(570): WP_Hook->do_action()
+#6 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(86): do_action_ref_array()
+#7 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action()
+#13 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action()
+#18 C:\OSPanel\domains\shop\wordpress\wp-admin\admin-ajax.php(207): do_action()
+#19 {main}
+2026-04-17T06:56:40+00:00 NOTICE There was an error trying to get product set data in a catalog: Невозможно создать экземпляр API, так как отсутствует токен доступа.
+2026-04-17T06:56:40+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Невозможно создать экземпляр API, так как отсутствует токен доступа.; exception_trace : #0 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(226): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(107): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_wc_product_categories()
+#3 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->sync_all_product_sets()
+#4 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(570): WP_Hook->do_action()
+#6 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(86): do_action_ref_array()
+#7 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(103): ActionScheduler_Action->execute()
+#8 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(188): ActionScheduler_Abstract_QueueRunner->process_action()
+#9 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch()
+#10 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): ActionScheduler_QueueRunner->run()
+#11 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#12 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action()
+#13 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(48): do_action()
+#14 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#15 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): WP_Async_Request->maybe_handle()
+#16 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#17 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action()
+#18 C:\OSPanel\domains\shop\wordpress\wp-admin\admin-ajax.php(207): do_action()
+#19 {main}
+2026-04-17T06:56:40+00:00 WARNING Product feed scheduling failed: Integration not configured. : {"flow_name":"product_feed","flow_step":"schedule_feed_generation"}
+2026-04-17T06:56:40+00:00 WARNING Language override feed scheduling failed: Integration not configured. : {"flow_name":"language_override_feed","flow_step":"schedule_feed_generation"}
+2026-04-17T06:56:40+00:00 ERROR Error persisting error logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T07:00:58+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T07:06:09+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T07:12:20+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T07:16:01+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T07:20:28+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T07:25:16+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T07:31:04+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T07:35:23+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T07:40:26+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T07:40:39+00:00 NOTICE There was an error trying to get product set data in a catalog: Невозможно создать экземпляр API, так как отсутствует токен доступа.
+2026-04-17T07:40:39+00:00 ERROR ProductSetSync exception: exception_code : 0; exception_class : WooCommerce\Facebook\Framework\Api\Exception: exception_message : Невозможно создать экземпляр API, так как отсутствует токен доступа.; exception_trace : #0 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(139): WC_Facebookcommerce->get_api()
+#1 C:\OSPanel\domains\shop\wordpress\wp-content\plugins\facebook-for-woocommerce\includes\ProductSets\ProductSetSync.php(65): WooCommerce\Facebook\ProductSets\ProductSetSync->get_fb_product_set_id()
+#2 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): WooCommerce\Facebook\ProductSets\ProductSetSync->on_create_or_update_product_wc_category_callback()
+#3 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action()
+#5 C:\OSPanel\domains\shop\wordpress\wp-includes\taxonomy.php(2697): do_action()
+#6 C:\OSPanel\domains\shop\wordpress\wp-admin\includes\ajax-actions.php(623): wp_insert_term()
+#7 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(341): _wp_ajax_add_hierarchical_term()
+#8 C:\OSPanel\domains\shop\wordpress\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters()
+#9 C:\OSPanel\domains\shop\wordpress\wp-includes\plugin.php(522): WP_Hook->do_action()
+#10 C:\OSPanel\domains\shop\wordpress\wp-admin\admin-ajax.php(192): do_action()
+#11 {main}
+2026-04-17T07:46:17+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T07:50:17+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T07:59:12+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T08:00:16+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T08:05:13+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T08:10:58+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T08:15:03+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []
+2026-04-17T08:20:27+00:00 ERROR Error persisting Meta logs: Невозможно создать экземпляр API, так как отсутствует токен доступа. : []

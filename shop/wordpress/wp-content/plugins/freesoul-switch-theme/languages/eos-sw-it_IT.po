@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Freesoul Switch Theme\n"
+"POT-Creation-Date: 2018-06-30 11:43+0200\n"
+"PO-Revision-Date: 2018-06-30 11:43+0200\n"
+"Last-Translator: Giuseppe <giu09.mor@gmail.com>\n"
+"Language-Team: Giuseppe <giu09.mor@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: freesoul-switch-theme.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/eos-sw-admin.php:23
+msgid ""
+"You have no direct write access, Freesoul Switch Theme was not able to "
+"create the necessary mu-plugin and will not work."
+msgstr ""
+"Non disponendo di un accesso in scrittura diretto, Freesoul Switch Theme non "
+"è stato in grado di creare il necessario mu-plugin e quindi non funzionerà."
+
+#. Plugin Name of the plugin/theme
+#: inc/eos-sw-metaboxes.php:13
+msgid "Freesoul Switch Theme"
+msgstr "Freesoul Cambia Tema"
+
+#: inc/eos-sw-metaboxes.php:27
+msgid "Select a different theme for this page."
+msgstr "Seleziona un tema differente per questa pagina."
+
+#: inc/eos-sw-metaboxes.php:36
+msgid "Debug now"
+msgstr "Fai il debug ora"
+
+#: inc/eos-sw-metaboxes.php:42
+msgid ""
+"Check it to always use a different theme for this page. If not checked the "
+"chosen theme will be used only for debugging, pressing the button above."
+msgstr ""
+"Spuntalo se vuoi usare sempre un tema differente per questa pagina. Se non è "
+"spuntato, il tema differente verrà usato per il debug dopo aver premuto il "
+"pulsante sopra."
+
+#: plugin-activation.php:28
+msgid "Failed to create eos-switch-theme.php mu-plugin"
+msgstr "Impossibile creare eos-switch-theme. php mu-plugin"
+
+#. Description of the plugin/theme
+msgid ""
+"Freesoul Switch Theme allow you to load a different theme for a specific "
+"page, both in a permanent way and just for debugging.."
+msgstr ""
+"Freesoul Cambia Tema ti permette di caricare un tema differente per "
+"specifiche pagine, sia in modo permanente che per debugging."
+
+#. Author of the plugin/theme
+msgid "Giuseppe Mortellaro, Eos Koch"
+msgstr "Giuseppe Mortellaro, Eos Koch"
+
+#. Author URI of the plugin/theme
+msgid "http://freesoul-design-studio.com"
+msgstr "http://freesoul-design-studio.com"
+
+#~ msgid "Freesoul Swtitch Theme"
+#~ msgstr "Freesoul Cambia Tema"

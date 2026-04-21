@@ -1,0 +1,19 @@
+.eos-hidden{
+	display:none
+}
+.eos-pre-nav .button-primary {
+    background: #000;
+    border-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    text-shadow: none;
+}
+.eos-pre-nav .button-primary:hover,
+.eos-pre-nav .button-primary:focus{
+    background: #d3c4b8;
+    background: -webkit-linear-gradient(#d3c4b8,#81603B);
+    background: -o-linear-gradient(#d3c4b8,#81603B);
+    background: -moz-linear-gradient(#d3c4b8,#81603B);
+    background: linear-gradient(#d3c4b8,#81603B);
+}

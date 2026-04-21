@@ -1,0 +1,3 @@
+2026-04-14T13:08:34+00:00 INFO Payment gateway enabled: "Прямой банковский перевод"
+2026-04-14T13:08:38+00:00 INFO Payment gateway enabled: "Чековые платежи"
+2026-04-14T13:08:42+00:00 INFO Payment gateway enabled: "Оплата при доставке"
